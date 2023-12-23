@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table>
+      <form action="">
+        <tbody>
+          <tr>
+            <td><label for="ename">Name</label></td>
+            <td>
+              <input type="text" id="ename" name="ename" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="ecode">Employee Code</label></td>
+            <td>
+              <input type="text" id="ecode" name="ecode" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label name="dept">Department</label></td>
+            <td>
+              <input type="radio" name="dept" id="admin" value="admin" />
+              <label for="admin">ADMIN</label>
+              <br />
+
+              <input type="radio" name="dept" id="hr" value="hr" />
+              <label for="hr">HR</label>
+              <br />
+
+              <input type="radio" name="dept" id="tech" value="tech" />
+              <label for="tech">TECHNICAL</label>
+              <br />
+
+              <input type="radio" name="dept" id="acc" value="acc" />
+              <label for="acc">ACCOUNTS</label>
+              <br />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="doj">Date of Joining</label></td>
+            <td><input type="date" id="doj" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="addr">Address</label></td>
+            <td>
+              <textarea name="addr" id="addr" cols="30" rows="5"></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="tpa">Trainning programs Attended</label></td>
+            <td>
+              <input
+                type="checkbox"
+                name="tpa"
+                id="html/dhtml"
+                value="HTML/DHTML"
+              />
+              <label for="html/dhtml">HTML/DHTML</label>
+              <br />
+
+              <input type="checkbox" name="tpa" id="java" value="JAVA" />
+              <label for="java">JAVA</label>
+              <br />
+
+              <input
+                type="checkbox"
+                name="tpa"
+                id="client/server"
+                value="CLIENT/SERVER"
+              />
+              <label for="html/dhtml">CLIENT/SERVER</label>
+              <br />
+
+              <input type="checkbox" name="tpa" id=".net" value=".NET" />
+              <label for=".net">.NET</label>
+              <br />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Trainning Programmes need to attend</td>
+            <td>
+              <select name="programs" id="programs" size="2">
+                <option value="JAVASCRIPT" selected>JAVASCRIPT</option>
+                <option value="JSTRUTS">JSTRUTS</option>
+                <option value="MONGODB">MONGODB</option>
+                <option value="JSP">JSP</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Send Information at</td>
+            <td><a href="mailto:empinfo@patni.com">empinfo@patni.com</a></td>
+          </tr>
+        </tbody>
+      </form>
+    </table>
+  </body>
+</html>

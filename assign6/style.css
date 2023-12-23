@@ -1,0 +1,10 @@
+body {
+    background-color: aliceblue;
+}
+
+
+th,
+td {
+    width: auto;
+    padding: 10px;
+}

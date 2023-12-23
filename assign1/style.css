@@ -1,0 +1,13 @@
+#heading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+thead {
+    text-align: left;
+}
+
+th,
+td {
+    width: 200px;
+}

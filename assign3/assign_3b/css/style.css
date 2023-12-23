@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300;1,400;1,700&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.nav,
+.footer-foot {
+    background-color: rgb(35, 224, 177);
+    color: white;
+}
+
+thead {
+    background-color: rgb(35, 224, 177);
+    color: white;
+}
+
+.rcap {
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    margin-right: 150px;
+    padding: 5px;
+}
