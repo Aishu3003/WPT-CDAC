@@ -1,0 +1,49 @@
+
+div {
+    text-align: center;
+    margin: 20px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    border-color: #333;
+    
+  }
+  
+
+  h2 {
+    color: #333;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  
+ 
+  label {
+    margin-bottom: 10px;
+  }
+  
+
+  input {
+    padding: 8px;
+    margin: 5px;
+  }
+  
+
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #004d96; 
+    color: #fff;  
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  p{
+    color: #000000;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
